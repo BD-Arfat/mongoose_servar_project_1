@@ -8,7 +8,7 @@ const port:number = 5000;
 async function main() {
     
   try{
-    await mongoose.connect('mongodb://127.0.0.1:27017/test');
+    await mongoose.connect('mongodb://127.0.0.1:27017/mongoose_class_3');
     console.log('Connected to MongoDB');
     app.listen(port, () => {
       console.log(`Example app listening on port ${port}`)
